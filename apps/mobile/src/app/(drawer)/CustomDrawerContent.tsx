@@ -6,11 +6,11 @@ import { DrawerActions } from '@react-navigation/routers';
 
 import { X } from 'phosphor-react-native';
 
-import CredentialSvg from '../assets/credential.svg';
+import CredentialSvg from '../../assets/credential.svg';
 
 import colors from 'tailwindcss/colors';
 
-import DrawerItem from '../components/DrawerItem';
+import DrawerItem from '../../components/DrawerItem';
 
 export default function CustomDrawerContent(props: DrawerContentComponentProps) {
   const insets = useSafeAreaInsets();
